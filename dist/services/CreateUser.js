@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-function createUser(name, email, password) {
-    if (name === void 0) { name = ""; }
+function createUser(_a) {
+    var name = _a.name, email = _a.email, password = _a.password;
     var user = {
         name: name,
         email: email,
